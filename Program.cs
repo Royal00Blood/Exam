@@ -1,5 +1,7 @@
 ﻿string [] array = new string [5]{"Vasy","add","Float","Cats","BOB"};
 
+
+
 string [] CreateNewArray (string [] array)
 {
     string [] newArray = new string [array.Length];
@@ -11,4 +13,14 @@ string [] CreateNewArray (string [] array)
         }
     }
     return newArray;
+}
+
+void PrintArray(string [] array)
+{
+    Console.WriteLine();
+    for(int i = 0; i< array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
 }
