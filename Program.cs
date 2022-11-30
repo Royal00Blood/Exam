@@ -2,9 +2,6 @@
 
 PrintArray(CreateNewArray(array));
 
-
-
-
 string [] CreateNewArray (string [] array)
 {
     string [] newArray = new string [array.Length];
